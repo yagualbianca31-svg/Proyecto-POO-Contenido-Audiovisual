@@ -1,0 +1,19 @@
+package uni1a;
+
+public class Investigador {
+    private String nombre;
+    private String especialidad;
+    private String institucion;
+
+    public Investigador(String nombre, String especialidad, String institucion) {
+        this.nombre = nombre;
+        this.especialidad = especialidad;
+        this.institucion = institucion;
+    }
+
+    public void mostrarDetalles() {
+        System.out.println("Investigador: " + nombre);
+        System.out.println("Especialidad: " + especialidad);
+        System.out.println("Institución: " + institucion);
+    }
+}
